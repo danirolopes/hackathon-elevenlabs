@@ -1,0 +1,15 @@
+name: hackathon-elevenlabs
+
+services:
+  devcontainer:
+    build:
+      dockerfile: devcontainer.Dockerfile
+    hostname: devcontainer
+    volumes:
+      - ../:/workspaces/hackathon-elevenlabs:cached
+      - commandhistory:/commandhistory
+    command: sleep infinity
+
+volumes:
+  commandhistory:
+  kafka-data:

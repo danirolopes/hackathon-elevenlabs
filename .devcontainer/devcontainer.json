@@ -1,0 +1,15 @@
+{
+  "name": "audit-log-middleware",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "devcontainer",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "remoteUser": "vscode",
+  "containerEnv": {
+    "PDM_IGNORE_ACTIVE_VENV": "1"
+  },
+  "forwardPorts": [
+    8000,
+    5500
+  ],
+  "updateContentCommand": "pdm install"
+}
