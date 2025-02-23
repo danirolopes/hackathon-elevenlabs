@@ -1,0 +1,52 @@
+{
+  "identified_items": [
+    {
+      "quantity": 1,
+      "name": "Butter"
+    },
+    {
+      "quantity": 1,
+      "name": "Pack of meat"
+    },
+    {
+      "quantity": 1,
+      "name": "Cream cheese"
+    },
+    {
+      "quantity": 1,
+      "name": "Milk"
+    },
+    {
+      "quantity": 1,
+      "name": "Yogurt"
+    },
+    {
+      "quantity": 1,
+      "name": "Pack of sausages"
+    },
+    {
+      "quantity": 1,
+      "name": "Pack of pasta"
+    },
+    {
+      "quantity": 1,
+      "name": "Pack of cheese"
+    },
+    {
+      "quantity": 1,
+      "name": "Pack of berries"
+    },
+    {
+      "quantity": 1,
+      "name": "Pack of eggs"
+    },
+    {
+      "quantity": 5,
+      "name": "Bottled drinks"
+    },
+    {
+      "quantity": 1,
+      "name": "Pack of snacks"
+    }
+  ]
+}
