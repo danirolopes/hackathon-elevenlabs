@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 venv/
-.env
 __pycache__/
 *.pyc
-=======
 *.env
 *.pyc
 *.pyo
@@ -11,4 +8,3 @@ __pycache__/
 *.pyw
 *.pyz
 *.pywz
->>>>>>> fe77e025f6fc03223534d5af71eb6244320f083b
