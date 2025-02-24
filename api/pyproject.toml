@@ -1,0 +1,36 @@
+[project]
+name = "hackathon-elevenlabs"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Gabriel Anatrone", email = "anatrone.gabriel@gmail.com"},
+]
+requires-python = "== 3.12.*"
+readme = "README.md"
+license = {text = "Proprietary"}
+dependencies = [
+    "fastapi[standard]~=0.115.6",
+    "pydantic~=2.10",
+    "python-json-logger~=2.0",
+    "pydash~=8.0",
+    "injector~=0.22",
+    "fastapi-injector~=0.6",
+    "asyncio>=3.4.3",
+    "elevenlabs>=1.51.0",
+    "fal-client>=0.5.9",
+    "groq>=0.18.0"
+]
+
+[tool.pdm]
+distribution = false
+
+[[tool.pdm.source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[tool.pdm.scripts]
+test = "pytest tests"
+start-dev.cmd = "python -B main.py"
+start-dev.env_file = ".env"
+start = "python -B main.py"
