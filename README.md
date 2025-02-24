@@ -2,11 +2,12 @@
 
 *The project was developed for the ElevenLabs Hackathon. You can learn more about the platform and its events on the homepage: [ElevenLabs](https://elevenlabs.io/).*
 
-Personal Chef AI is an AI-driven kitchen assistant that uses computer vision, OCR, and semantic search to provide personalized recipe recommendations based on the ingredients available in the user’s fridge. The system offers step-by-step voice guidance and dynamic ingredient substitutions. Integrating technologies like Lovable for the front-end, Supabase and Javascript for the back-end, CrewAI for agent management, SDK Vercel for LLM models, and ElevenLabs for TTS, Personal Chef AI aims to reduce food waste, optimize meal planning, and make the cooking process more accessible and sustainable.
+Personal Chef AI is an AI-driven kitchen assistant that uses computer vision, OCR, and semantic search to provide personalized recipe recommendations based on the ingredients available in the user’s fridge. The system offers step-by-step voice guidance and dynamic ingredient substitutions. Integrating technologies like Lovable for the front-end, Supabase and Javascript for the back-end, CrewAI for agent management, LLM models, and ElevenLabs for TTS, Personal Chef AI aims to reduce food waste, optimize meal planning, and make the cooking process more accessible and sustainable.
 
-## Tecnical Details
+## Tecnical Repositories
 
-- [Frontend Repository](https://github.com/danirolopes/hackathon-elevenlabs-app);
+- [Landing Page - Frontend Repository](https://github.com/luizbastos08/chefai-gourmet-guide);
+- [Chat - Frontend Repository](https://github.com/danirolopes/hackathon-elevenlabs-app);
 
 ## Documentation
 
