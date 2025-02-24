@@ -13,3 +13,4 @@ __pycache__/
 .trigger
 node_modules/
 data/
+.pdm-python
