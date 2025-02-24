@@ -8,3 +8,6 @@ __pycache__/
 *.pyw
 *.pyz
 *.pywz
+
+.trigger
+node_modules/
