@@ -1,4 +1,5 @@
 venv/
+.venv
 __pycache__/
 *.pyc
 *.env
@@ -11,3 +12,4 @@ __pycache__/
 
 .trigger
 node_modules/
+data/
